@@ -1,11 +1,11 @@
 {
-  "short_name": "Mint Page",
-  "name": "Mint Page",
+  "short_name": "Ark test demo",
+  "name": "Ark test demo",
   "icons": [
     {
       "src": "logo.png",
       "type": "image/png",
-      "sizes": "358x358"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",

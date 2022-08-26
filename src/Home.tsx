@@ -649,12 +649,12 @@ const Home = (props: HomeProps) => {
                 <br/>
                 <MintContainer>
                     <DesContainer>
-                        <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                        <NFT elevation={5}>
+                            <h2>Ark Bear Test Demo</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="Arkbeartest.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
